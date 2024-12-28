@@ -1,16 +1,16 @@
 # Data Analytics Portfolio
 
-## HOLA
+## <span style="color: blue;">HOLA</span>
 Hello world, I'm Noel. I'm a data-driven storyteller and these are some of my work.
 
-## OVERVIEW
+## <span style="color: blue;">OVERVIEW</span>
 This repository of data analytics projects demonstrates my skills in:
 - Data Analysis and Machine Learning using Python
 - SQL Database Queries and Analysis
 - Excel Advanced Analytics and Visualization
 - Comprehensive Data Reports
 
-## PROJECTS
+## <span style="color: blue;">PROJECTS</span>
 
 ### Crop Yield Optimisation - Machine Learning Pipeline
 This ML project predicts a regression issue as well as a classification problem.
@@ -59,16 +59,15 @@ Big data are helping record labels and musicians tweak their offerings for highe
 - Data analytics are easily available for musicians to exploit but would that gentrified music?
 - Good primer for data analytics students.
 
-## SKILLS
+## <span style="color: blue;">SKILLS</span>
 - **Programming Languages:** Python, SQL, Git, Terminal (bash)
 - **Data Analysis Tools:** Jupyter Notebook, Excel, Power BI
 - **Visualization:** Matplotlib, Seaborn, Excel Charts, Power BI
 - **Statistical Analysis:** [List relevant statistical methods you've used]
 - **Data Cleaning & Preprocessing:** [Specific techniques used]
 
-## CONNECT
+## <span style="color: blue;">CONNECT</span>
 - Email: noel.mr@gmail.com
-- GitHub Pages: 
 - Blog: https://noelmark.substack.com/
 - LinkedIn: https://www.linkedin.com/in/noelmark/
 
