@@ -63,8 +63,6 @@ Big data are helping record labels and musicians tweak their offerings for highe
 - **Programming Languages:** Python, SQL, Git, Terminal (bash)
 - **Data Analysis Tools:** Jupyter Notebook, Excel, Power BI
 - **Visualization:** Matplotlib, Seaborn, Excel Charts, Power BI
-- **Statistical Analysis:** [List relevant statistical methods you've used]
-- **Data Cleaning & Preprocessing:** [Specific techniques used]
 
 ## `CONNECT`
 - Email: noel.mr@gmail.com
