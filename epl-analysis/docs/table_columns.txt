@@ -1,0 +1,107 @@
+i) Club Table (42 columns):
+• Team Name
+• Home or Away Team
+• Expected Goals for Home
+• Expected Goals for Away
+• Non-Penalty Expected Goal
+• Play in Opponent's Third
+• Play on own Third
+• Goals Scored
+• Goals Conceded
+• Expected Points
+• Result
+• Date
+• Win (binary)
+• Draw (binary)
+• Lose (binary)
+• Points Earned
+• Non-penalty Expected Goal Difference
+• PPDA (Passes Per Defensive Action)
+• PPDA by Opponent
+• Match Time
+• Total Points Accumulative
+• Match Day
+• Total Goals Scored Accumulative
+• Total Goals Conceded Accumulative
+• Referee Name
+• Home Shots
+• Home Fouls
+• Home Corners
+• Home Yellow Card
+• Home Red Card
+• Away Shots
+• Away Fouls
+• Away Corners
+• Away Yellow Card
+• Away Red Card
+• Bet Odds for Home Win
+• Bet Odds for Draw
+• Bet Odds for Away Win
+• Percentage of Shots in Total by Home
+• Percentage of Shots in Total by Away
+• ***Get League Position from Total Points Accumulative
+
+
+ii) Players Table (33 columns)
+• Player ID
+• Player Name
+• Nationality
+• Team Name
+• Team ID
+• Age
+• Height
+• Weight
+• Position
+• Role
+• Games Played
+• Total Minutes Players
+• Rating
+• Goals
+• Assists
+• Yellow / Red Card
+• Average Shots
+• Average Aerials Won
+• Man of the Match
+• Successful Passes
+• Key Passes
+• Dribbles Won
+• Fouls Committed
+• Offside Given
+• Dispossessed
+• Average Passes
+• Average Crosses
+• Average Long Passes
+• Average Through Passes
+• Average Tackles
+• Average Intercepts
+• Fouls Committed
+• Average Clearance
+• Average Dribbles
+• Own Goals
+• Goalkeeper Stats X 4
+
+
+iii) Transfer Fees (11 columns)
+• Team Name
+• Player Name
+• Age
+• Position
+• Previous Club
+• Fee
+• Transfer In or Out
+• Fee Absolute
+• League Name
+• Year of Transfer
+• Year of Season
+
+
+Here are three concerns from West Ham:
+
+i) Do the most expensive players win the league for the club? If so, why?  If not, why not?  Find out the stats on top most expensive players in relation to the team's standing.  Eg. Team Name, Player Fee, League Position
+
+ii) Is there a superior playing style or approach that we should adopt?
+Eg. possession %, number shots, % into opponent's half, etc
+
+iii) Which areas are our players lacking in, compared to the players in the top teams?
+Eg, distance covered, number of successful passes, rating, etc
+

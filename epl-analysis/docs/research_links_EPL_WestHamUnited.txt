@@ -1,0 +1,97 @@
+*** FOOTBALL ***
+
+https://www.kaggle.com/idoyo92/epl-stats-20192020
+https://www.kaggle.com/irkaal/english-premier-league-results
+https://www.kaggle.com/saife245/english-premier-league
+https://www.kaggle.com/cashncarry/epl-players-deep-stats-20192020
+https://www.kaggle.com/aricht1995/premier-league-epl-player-information
+
+https://www.kaggle.com/hugomathien/soccer
+
+https://www.premierleague.com/
+
+https://www.21stclub.com/
+
+https://towardsdatascience.com/visualizing-the-2019-20-english-premier-league-season-with-matplotlib-and-pandas-fd491a07cfda
+
+
+WEST HAM
+
+ERD
+
+https://en.wikipedia.org/wiki/West_Ham_United_F.C.
+
+
+THOUGHT PROCESS:
+
+1. On 26 June this year, Liverpool finally won the English Premiere League after 30 years.  This north-western English club was a major force in the 70s and 80s but since then, other football clubs like Manchester United, Arsenal, Chelsea and Manchester City have overtook them in winning trophies.
+
+
+2. West Ham United is another football club in the EPL which had its heydays in the 60s and 70s. Sadly, their last silverware was in 1980  when they won the FA Cup Final.   The top six teams in the 2019/2020 season are Liverpool, Man City, Man United, Chelsea, Leicester City, and Tottenham Hotspurs.  West Ham came in 16 out f 20.
+
+
+3. Frustrated that the club can't afford big-money players, even after buying scores of not-so-expensive players and changing managers several times, the  club owners of West Ham, are betting on data science to change their game, so that they can go back to winning ways.
+
+
+4. Here are three concerns from West Ham:
+
+i) Do the most expensive players win the league for the club? If so, why?  If not, why not?  Find out the stats on top most expensive players in relation to the team's standing.  Eg. Team Name, Player Fee, League Position
+
+ii) Is there a superior playing style or approach that we should adopt?
+Eg. possession %, number shots, % into opponent's half, etc
+
+iii) Which areas are our players lacking in, compared to the players in the top teams?
+Eg, distance covered, number of successful passes, rating, etc
+
+
+5.Player Traits
+Endurance, strength, speed, agility and an exceptional understanding of where their teammates are at any one time.
+
+The metrics used to measure these attributes in a player include:
+
+	a) High speed running distance: the distance covered at the speed above a predefined threshold.
+	b) Mechanical work: representing the number of accelerations/decelerations above an intensity of |3 m.s-2|.
+	c) Force load distribution: force load refers to the sum of estimated ground reaction forces during all foot impacts.
+
+
+6. Is data is your most astute coach?
+
+
+7. Data to scout players
+Data allows scouts to prioritise and focus on the most promising players. And by using advanced clustering methods, clubs are now able to quickly find new players who are similar to other players. This cuts down the number of players clubs need to review, reducing the burden of classical approaches and allowing for deeper analysis of a small number of potential picks.
+
+“Most of the interesting questions we get from coaches are things event data doesn’t cover. Coaches talk about space — creating space, getting into space. So we realised we needed more fine-grained ways of understanding space on the pitch.”
+
+Data scientists at FC Barcelona found that Messi creates more space by standing still or jogging than any other player does by running.
+
+
+
+THREE TABLES TO JOIN:
+
+i) Club Table
+ii) Players table
+iii) Transfer Fees table
+(see "table_coumns.txt" for details)
+
+
+ENTITY RELATIONSHIP DIAGRAM (ERD):
+
+• Join Club Table with Player Table via Team Name
+• Join Player Table with Transfer Fees via Player Name
+
+
+
+ARTICLES:
+
+What difference can data make to a football team?
+https://www.exasol.com/what-difference-can-data-make-for-a-football-team/
+
+How data analysis helps football clubs make better signings
+https://www.ft.com/content/84aa8b5e-c1a9-11e8-84cd-9e601db069b8
+
+Engineering Football Excellence With Sensors, Stats And Data Analytics
+https://www.intel.co.uk/content/www/uk/en/it-management/cloud-analytic-hub/data-powered-football.html
+
+
+MOVIE
+Moneyball

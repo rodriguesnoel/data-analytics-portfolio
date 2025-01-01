@@ -1,0 +1,51 @@
+# .github/workflows/ml-pipeline.yml
+name: ML Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    
+    - name: Cache pip dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas==1.5.3
+        pip install numpy==1.23.0
+        pip install matplotlib==3.7.1
+        pip install seaborn==0.12.2
+        pip install scipy==1.10.1
+        pip install scikit-learn==1.2.0
+        pip install requests  # For downloading the database
+    
+    - name: Download database
+      run: |
+        mkdir -p data
+        wget -O data/agri.db https://techassessment.blob.core.windows.net/aiap19-assessment-data/agri.db
+      
+    - name: Run ML pipeline
+      run: |
+        chmod +x run.sh
+        ./run.sh
+
+# Rest of the configuration remains the same...
